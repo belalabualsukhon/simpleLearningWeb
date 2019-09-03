@@ -1,0 +1,125 @@
+body{
+  width: 1341px;
+  height: 100%;
+    background-color: #0b7070;
+animation-name: example;
+animation-duration: 15s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes example {
+    0%   {background-color:rgb(229, 147, 147); left:0px; top:0px;}
+    25%  {background-color:rgb(129, 129, 47); left:200px; top:0px;}
+    50%  {background-color:rgb(66, 66, 128); left:200px; top:200px;}
+    75%  {background-color:rgb(63, 129, 63); left:0px; top:200px;}
+    100% {background-color:rgb(131, 55, 55); left:0px; top:0px;}
+}
+.logo{
+  width: 1330px;
+    overflow: hidden;
+    background-color:black;
+    position: relative;
+    top: 0;
+        
+      
+}
+.logo:hover{
+    color:black;
+    background: rgb(20, 20, 20);
+    
+}
+
+.logo a{
+    float: left;
+    display: block;
+    color: rgb(197, 191, 191);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+.logo a:hover {
+    background:white;
+    color:orangered;
+}
+.tab{
+  display: flex;
+  justify-content: center;
+
+
+ 
+}
+.tab-image1:hover{
+  width: 500px;
+
+}
+.tab-image2:hover{
+  width: 500px;
+
+}
+.tab-image3:hover{
+  width: 500px;
+
+}
+.tab-image1{
+ display: inline;
+}
+img{
+     width: 435px;
+}
+
+.springy-text {
+  height: 19px;
+  width: 1305px;
+  font-style: italic;
+    font-size: 20px;
+    transform: translate(0px,-15px);
+    color: rgb(168, 165, 165);
+    animation-name: springy-text;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    animation-fill-mode:forwards ;
+  }
+  @keyframes springy-text {
+    0%   {
+      letter-spacing:1.2em;
+      color: rgb(15, 15, 15);
+    }
+    75%   {
+      letter-spacing:0.1em;
+      color: rgb(197, 191, 191);
+    }
+  }
+
+  .info-text h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  }
+  .info-text p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  }
+
+  .search-google{
+    padding: 16px 16px;
+    float: right;
+  }
+  .search-google :hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    background: 
+    }
+    .search-google :focus{
+      border-color:#4d90fe;
+    }
+    
